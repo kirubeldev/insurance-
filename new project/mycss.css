@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+html{
+    scroll-behavior: smooth;
+   
+   
+}
+.nav{
+    background-color: rgb(36, 37, 78);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    z-index: 100; 
+}
+.vision span{
+    color: azure;
+    position: absolute;
+    top:19px;
+    font-size: 30px;
+    left: 40px;
+    font-style: italic;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-decoration: none;
+   
+}
+ 
+.vi a:hover{
+    color: rgb(239, 245, 245);
+    background-color: black;
+}
+.vi a:visited, :focus{
+    color: rgb(252, 249, 245);
+    
+}
+body{
+  transition: 0.5s;
+  font-family: 'Roboto', sans-serif;
+}
+.vision .vi a{
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+.vision .vi a:hover{
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+.first{
+  
+  white-space: nowrap;
+}
+nav ul{
+    display: flex;
+    justify-content:end;
+    list-style: none;
+  
+}
+nav ul li {
+    padding: 25px;
+    transition: 0.5s;
+    
+}
+li a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+li a:hover{
+    color: rgb(249, 253, 253);
+    background-color: black;
+    transition: 0.5s;
+}
+.body{
+  scroll-margin: 2rem;
+}
+
+.image{
+  background-color: rgba(0,0,0,0.1);  
+  background: url(https://media.istockphoto.com/id/471620576/photo/house-protect-security-concept.jpg?b=1&s=170667a&w=0&k=20&c=uQiYxfb8pNv2r1YtcV2mYfNzf0SNP-R9jPNxEMRxbkA=)no-repeat;
+  background-color: rgba(0,0,0,1);  
+  margin-top: 40px;
+  background-position: top left;
+    background-size:cover;
+   
+    object-fit: cover;
+    height: 100vh;
+    opacity: 0.9;
+    background-color:transparent;
+    margin-bottom: 20px;
+    position: relative;
+  
+}
+.image .first{
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    color: rgb(12, 12, 12);
+    font-size: 40px;
+    font-weight: 800;
+}
+.image .next{
+    position: absolute;
+    top: 30%;
+    left: 37%;
+    color: rgb(9, 8, 8);
+    font-size: 27px;
+    max-width: 400px;
+    font-weight: 600;
+}
+.get a{
+    position: absolute;
+    left:44%;
+    top:54%;
+    padding: 13px 20px;
+    border-radius: 50px;
+    border: none;
+    color: black;
+    background-color: orange;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.7s ;
+}
+
+.get a:visited{
+    color: black;
+    transition: 0.7s;
+}
+.get a:hover{
+    background-color: rgb(231, 228, 215);
+    transition: 0.5s;
+    font-size: 17px;
+}
+/* body */
+
+.vision a{
+  background-color: wheat;
+}
+.body .background{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+}
+
+body{
+    position: relative;
+    background-color: #efeeed79;
+    line-height: 1.4;
+
+} 
+.bg-note-containner {
+    background-color: #dbcdbf79;
+    text-align: justify;
+    display: grid;
+   gap: 12px;
+    padding-left: 28%;
+    flex-wrap: wrap;
+    white-space: wrap;
+   
+   
+    
+   
+    
+   
+}
+
+
+  
+
+
+.note{
+    width: 700px;
+    font-size: 20px;
+    margin-left: 40px;
+    line-height: 2
+    .5rem;
+   
+}
+.one span{
+    text-align:left;
+    text-align: justify
+}
+.note h2{
+    margin-bottom: 5px;
+}
+.ser h2{
+    margin-bottom: 20px;
+  
+}
+.three{
+    margin-top:25px;
+}
+
+.ser {
+    width: 600px;
+    font-size: 20px;
+    margin-left: 40px;
+    text-align: justify;
+    text-align: justify
+    
+}
+
+#Service-2{
+    width: 600px;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    line-height: 1.4;
+    text-align: justify
+   
+    
+    
+}
+
+/* ******************service************************ */
+.service-note{
+    background-color: rgb(246, 225, 225);
+    height: 100vh;
+}
+
+#Service h2{
+    display: flex;
+    justify-content: center;
+    margin:30px;
+    font-size: 35px;
+
+}
+.notee h2{
+   display: flex;justify-content: center;
+   font-size: 30px;
+}
+.service-note p{
+   display: flex;
+   justify-content: center;
+   margin-left: 40px;
+   font-size: 20px;
+   line-height: 1.4;
+   margin-top: 10px;
+}
+#Service h2{
+  margin-top: 60px;
+}
+ /* ****************************contact us ************************/
+
+
+.con h2{
+    display: flex;
+  white-space: nowrap;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.address{
+    margin-left: 50px;
+   
+    border: 1px double rgb(223, 141, 18);
+    width: auto;
+    display: flex;
+}
+.contact{
+  position: relative;
+}
+.address{
+ position: absolute;
+ top: 34.4%;
+ left: 50%;
+ line-height:1.3rem ;
+ padding-left: 30px;
+ padding-top: 30px;
+ background-color: rgb(153, 199, 239);
+}
+.address p{
+  padding-left: 70px;
+  font-size: 18px;
+}
+
+
+.map{
+ 
+  margin-top: 70px;
+ 
+  margin-left: 30px;
+  height: 200px;
+ 
+
+} 
+
+  
+
+.foot{
+  background-color: #333;
+  border: 2px double black;
+  width: 100%;
+  margin-top: 340px;
+  height:150px;
+  
+
+  
+}
+.social{
+  display: flex;
+  justify-content: space-evenly;
+ gap: 93px;
+ margin-top: 20px;
+  font-size: 30px;
+  
+ 
+}
+.social i{
+  text-shadow: 1px 1px 2px #444;
+  
+}
+.social .facebook a{
+  color: rgb(26, 99, 201);
+}
+.social .whatsup a {
+  color: rgb(93, 194, 65);
+ 
+}
+.social .twetter a{
+  color: rgb(53, 122, 218);
+}
+.social .insta a{
+  color: rgb(229, 21, 21);
+}
+.insta:visited{
+  color:rgb(223, 75, 34) ;
+}
+.social .waa {
+  color: green;
+}
+.social p{
+  font-size: 16px;
+  margin-left: -15px;
+  color: rgb(216, 192, 192);
+}
+.wu p{
+  margin-left: -20px;
+}
+.wu a{
+  color: rgb(223, 75, 34);
+}
+.waa p{
+ margin-left: -5px;
+}
+.foot h2{
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  
+
+}
+.social a{
+  text-decoration: none;
+}
+
+/******** other ***************/
+
+.total{
+
+ margin: 40px;
+ padding: 20px;
+ display: grid;
+ grid-template-columns: repeat(3 , 1fr);
+overflow-x: hidden;
+gap: 30px;
+}
+.total img{
+  width: 350px;
+  border-radius: 10px;
+  height: 200px;
+}
+.total p{
+  display: flex;
+  justify-content: center;
+}
+.img-ser-text{
+  background-color: rgba(131, 121, 121, 0.157);
+ 
+ 
+}
+.serv{
+  display: flex;
+  justify-content: center;
+  margin-top:50px;
+  font-size: 30px;
+  margin-bottom: -10px;
+
+}
+
+.img-ser-text p{
+  margin-top: 10px;
+  font-size: 20px;
+  font-family:cursive;
+  text-decoration: underline;
+}
+
+
+  
+    
+  
+.others{
+  font-size: 19px;
+  margin-left: 25px;
+ 
+}
+.others li h3{
+  display: flex;
+  justify-content: center;
+
+}
+.others li:nth-child(1){
+  list-style: none;
+}
+
+.che{
+  color: orange;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  font-size: 30px;
+  }
+
